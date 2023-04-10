@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Header from '../Banner/Banner'
+import Banner from '../Banner/Banner';
 const Body = () => {
     return (
-        <div className='min-h-[75vh]'>
-            this is body
+        <div >
+            <Banner></Banner>
         </div>
     );
 };
