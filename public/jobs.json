@@ -1,22 +1,6 @@
 [
     {
         "id": 1,
-        "logo": "../src/assets/Logo/netflix.png",
-        "title": "Data Analyst",
-        "company": "Netflix",
-        "type": "Full-Time",
-        "location": "Seattle, WA",
-        "duration": "Permanent",
-        "salary": "$80,000 - $100,000 per year",
-        "description": "We are looking for a data analyst to join our team and help us analyze large datasets to drive business insights. The ideal candidate will have a strong background in data analysis, excellent communication skills, and experience working with SQL and Python.",
-        "responsibility": "Responsibilities include working with stakeholders to identify business questions and data needs, conducting data analysis to answer those questions, and presenting findings to internal teams.",
-        "education": "Bachelor's degree in a relevant field",
-        "experience": "3+ years of experience in data analysis",
-        "email": "recruiting@netflix.com",
-        "phone": "(123) 456-7890"
-    },
-    {
-        "id": 2,
         "logo": "../src/assets/Logo/inno.png",
         "title": "Product Manager",
         "company": "Innovate LLC",
@@ -32,7 +16,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 3,
+        "id": 2,
         "logo": "../src/assets/Logo/tesla.png",
         "title": "Senior Data Scientist",
         "company": "Tesla",
@@ -48,7 +32,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 4,
+        "id": 3,
         "logo": "../src/assets/Logo/google.png",
         "title": "Software Engineer",
         "company": "Google",
@@ -64,8 +48,8 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 5,
-        "logo": "../src/assets/Logo/pro.jpg",
+        "id": 4,
+        "logo": "../src/assets/Logo/pro.png",
         "title": "Data Scientist",
         "company": "FACEPRO",
         "type": "Remote",
@@ -80,7 +64,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 6,
+        "id": 5,
         "logo": "../src/assets/Logo/globex.png",
         "title": "Senior Software Engineer",
         "company": "Globex Corporation",
@@ -96,7 +80,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 8,
+        "id": 6,
         "logo": "../src/assets/Logo/pqp.png",
         "title": "Cybersecurity Analyst",
         "company": "PQR Corp",

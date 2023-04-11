@@ -19,7 +19,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 0.6em 1.2em;
   margin: 25px 0;
   font-size: 1em;
@@ -32,7 +32,7 @@ button {
 
 button:hover {
   background-color: #ff80258a;
-  border: 2px solid #91450ee2;
+  border: 3px solid rgba(173, 83, 18, 0.518);
 }
 
 button:focus,
@@ -95,4 +95,33 @@ button:focus-visible {
 .space{
   margin: 2rem;
   padding: 2rem;
+}
+
+.card {
+  text-align: left;
+  padding: 1rem 2.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.card-img{
+  width: 50%;
+  max-height: 20%;
+  margin: 1.5rem 0;
+}
+
+.btn-mute{
+  font-size: small;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #d6d4d4df;
+  border-color:2px solid transparent;
+}
+.btn-mute:hover{
+  border:2px solid #d6d4d4;
+}
+
+@media screen and (max-width: 600px) {
+  
 }
