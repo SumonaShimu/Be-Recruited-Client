@@ -25,14 +25,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color:#f97416ae;
+  background-color: #f97416ae;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 button:hover {
   background-color: #ff80258a;
-  border:2px solid #91450ee2;
+  border: 2px solid #91450ee2;
 }
 
 button:focus,
@@ -61,6 +61,12 @@ button:focus-visible {
   /* line-height: 100px; */
 }
 
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
 .mute {
   font-weight: 500;
   font-size: 1rem;
@@ -79,9 +85,14 @@ button:focus-visible {
   margin: 10px 15px;
 }
 
-.banner{
+.banner {
   background-image: url('./assets/All Images/Vector-1.png');
   background-repeat: no-repeat;
   background-position: bottom top;
   background-size: contain;
+}
+
+.space{
+  margin: 2rem;
+  padding: 2rem;
 }
