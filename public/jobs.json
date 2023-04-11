@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "logo": "../src/assets/Logo/inno.png",
+        "logo": "inno.png",
         "title": "Product Manager",
         "company": "Innovate LLC",
         "type": "Remote",
@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "logo": "../src/assets/Logo/tesla.png",
+        "logo": "tesla.png",
         "title": "Senior Data Scientist",
         "company": "Tesla",
         "type": "Onsite",
@@ -33,7 +33,7 @@
     },
     {
         "id": 3,
-        "logo": "../src/assets/Logo/google.png",
+        "logo": "google.png",
         "title": "Software Engineer",
         "company": "Google",
         "type": "Onsite",
@@ -49,7 +49,7 @@
     },
     {
         "id": 4,
-        "logo": "../src/assets/Logo/pqp.png",
+        "logo": "pqp.png",
         "title": "Cybersecurity Analyst",
         "company": "PQR Corp",
         "type": "Full-Time",
@@ -65,7 +65,7 @@
     },
     {
         "id": 5,
-        "logo": "../src/assets/Logo/globex.png",
+        "logo": "globex.png",
         "title": "Senior Software Engineer",
         "company": "Globex Corporation",
         "type": "Onsite",
@@ -81,7 +81,7 @@
     },
     {
         "id": 6,
-        "logo": "../src/assets/Logo/pro.png",
+        "logo": "pro.png",
         "title": "Data Scientist",
         "company": "FACEPRO",
         "type": "Remote",
