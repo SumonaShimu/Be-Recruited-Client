@@ -139,3 +139,7 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
 }
+.icon{
+  color: rgb(214, 79, 1);
+  margin-right: 10px;
+}
