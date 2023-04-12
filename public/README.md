@@ -2,7 +2,7 @@
 
 This is a README file for my React project(BeReqruited).
 
-## Description &
+## Description 
 
 This project is built using vite React and includes the following features:
 
