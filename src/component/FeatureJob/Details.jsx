@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faLocationPin, faPhone, faCalendarDays, faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons';
+import { addToDb } from '../fakedb';
 
 const Details = () => {
     const { id } = useParams();
@@ -42,7 +43,7 @@ const Details = () => {
                     <p className='mute'>
                         <FontAwesomeIcon icon={faLocationPin} className="icon"/>
                         <span className='font-bold text-slate-900'>Address: </span>{location}</p>
-                    <button className='rounded-full'>Apply Now</button>
+                    <button onClick={()=>addToDb(job)} className='rounded-full'>Apply Now</button>
 
 
                 </div>

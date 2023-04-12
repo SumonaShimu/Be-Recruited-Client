@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "logo": "inno.png",
         "title": "Product Manager",
         "company": "Innovate LLC",
@@ -16,7 +16,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 2,
+        "id": "2",
         "logo": "tesla.png",
         "title": "Senior Data Scientist",
         "company": "Tesla",
@@ -32,7 +32,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 3,
+        "id": "3",
         "logo": "google.png",
         "title": "Software Engineer",
         "company": "Google",
@@ -48,7 +48,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 4,
+        "id": "4",
         "logo": "pqp.png",
         "title": "Cybersecurity Analyst",
         "company": "PQR Corp",
@@ -64,7 +64,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 5,
+        "id": "5",
         "logo": "globex.png",
         "title": "Senior Software Engineer",
         "company": "Globex Corporation",
@@ -80,7 +80,7 @@
         "phone": "(123) 456-7890"
     },
     {
-        "id": 6,
+        "id": "6",
         "logo": "pro.png",
         "title": "Data Scientist",
         "company": "FACEPRO",
