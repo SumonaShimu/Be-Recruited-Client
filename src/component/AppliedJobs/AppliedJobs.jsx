@@ -17,6 +17,9 @@ const AppliedJobs = () => {
     // console.log(jobs)
     return (
         <div className='min-h-[80vh]'>
+            <div className='header'>
+                <h1 className='text-center'>Applied Jobs</h1>
+            </div>
             {jobs.map(job=><AppliedJob job={job}></AppliedJob>)}
         </div>
     );

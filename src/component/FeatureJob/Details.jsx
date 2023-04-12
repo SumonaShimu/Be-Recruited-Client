@@ -27,13 +27,14 @@ const Details = () => {
                 </div>
                 <div className='bg-orange-100 p-10 rounded-xl'>
                     <h2>Job Details</h2>
+                    <hr />
                     <p className='mute'>
                         <FontAwesomeIcon icon={faHandHoldingDollar} className="icon"/>
                         <span className='font-bold text-slate-900'>Salary: </span>{salary}</p>
                     <p className='mute'>
                         <FontAwesomeIcon icon={faCalendarDays} className="icon"/>
                         <span className='font-bold text-slate-900'>Job Title: </span>{title}</p>
-                    <h2>Contact Information</h2>
+                    <h2 className='mt-5'>Contact Information</h2><hr />
                     <p className='mute'>
                         <FontAwesomeIcon icon={faPhone} className="icon"/>
                         <span className='font-bold text-slate-900'>Phone: </span>{phone}</p>

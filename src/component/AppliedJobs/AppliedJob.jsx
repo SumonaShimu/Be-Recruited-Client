@@ -20,7 +20,7 @@ const AppliedJob = ({ job }) => {
                 </div>
             </div>
 
-            <Link to={`/details/${id}`}><button className='rounded-full'>Show Details</button></Link>
+            <Link to={`/details/${id}`}><button className='rounded-full'>View Details</button></Link>
 
         </div>
     );

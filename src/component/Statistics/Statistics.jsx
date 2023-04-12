@@ -54,33 +54,38 @@ const Statistics = () => {
     }
   ];
   return (
-    <ResponsiveContainer width="100%"
-    height={550}>
-      <RadarChart
-        cx="50%" cy="50%"
-        outerRadius='70%'
-        data={data}
-      >
-        <PolarGrid />
-        <PolarAngleAxis dataKey="subject" />
-        <PolarRadiusAxis angle={45} domain={[0, 60]} />
-        <Radar
-          name="Optained Mark"
-          dataKey="optainedMark"
-          stroke='#ff0000c7'
-          fill="#ff0000c7"
-          fillOpacity={0.3}
-        />
-        <Radar
-          name="Total Mark"
-          dataKey="fullMark"
-          stroke="#0000ff82"
-          fill="#0000ff82"
-          fillOpacity={0.5}
-        />
-        <Legend />
-      </RadarChart>
+    <div>
+      <div className='header'>
+        <h1 className='text-center'>Statistics</h1>
+      </div>
+      <ResponsiveContainer width="100%"
+        height={550}>
+        <RadarChart
+          cx="50%" cy="50%"
+          outerRadius='70%'
+          data={data}
+        >
+          <PolarGrid />
+          <PolarAngleAxis dataKey="subject" />
+          <PolarRadiusAxis angle={45} domain={[0, 60]} />
+          <Radar
+            name="Optained Mark"
+            dataKey="optainedMark"
+            stroke='#ff0000c7'
+            fill="#ff0000c7"
+            fillOpacity={0.3}
+          />
+          <Radar
+            name="Total Mark"
+            dataKey="fullMark"
+            stroke="#0000ff82"
+            fill="#0000ff82"
+            fillOpacity={0.5}
+          />
+          <Legend />
+        </RadarChart>
       </ResponsiveContainer>
+    </div>
   );
 };
 
