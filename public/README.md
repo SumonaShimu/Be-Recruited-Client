@@ -1,6 +1,6 @@
 # My React Project
 
-This is a README file for my React project(BeReqruited).
+This is a README file for my React project (BeReqruited).
 
 ## Description 
 
@@ -17,6 +17,6 @@ This project is built using vite React and includes the following features:
 - Finally there is a blog with some FAQs.
 
 ## Live Link of my site
-[Link text](https://berecruited.netlify.app/ "Visit site" target="_blank")
+https://berecruited.netlify.app
 
 
