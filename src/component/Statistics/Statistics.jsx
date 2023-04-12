@@ -6,7 +6,8 @@ import {
   Legend,
   PolarAngleAxis,
   PolarRadiusAxis,
-  ResponsiveContainer
+  ResponsiveContainer,
+  Tooltip
 } from "recharts";
 
 const Statistics = () => {
@@ -54,7 +55,7 @@ const Statistics = () => {
     }
   ];
   return (
-    <div>
+    <div className='mb-20'>
       <div className='header'>
         <h1 className='text-center'>Statistics</h1>
       </div>
@@ -83,6 +84,7 @@ const Statistics = () => {
             fillOpacity={0.5}
           />
           <Legend />
+          <Tooltip /> {/* Add Tooltip component as a child */}
         </RadarChart>
       </ResponsiveContainer>
     </div>
