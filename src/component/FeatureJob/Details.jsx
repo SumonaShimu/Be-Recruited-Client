@@ -43,9 +43,7 @@ const Details = () => {
                     <p className='mute'>
                         <FontAwesomeIcon icon={faLocationPin} className="icon"/>
                         <span className='font-bold text-slate-900'>Address: </span>{location}</p>
-                    <button onClick={()=>addToDb(job)} className='rounded-full'>Apply Now</button>
-
-
+                    <button onClick={()=>addToDb(id)} className='rounded-full'>Apply Now</button>
                 </div>
             </div>
         </div>

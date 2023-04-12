@@ -16,7 +16,7 @@ const AppliedJobs = () => {
     })
     // console.log(jobs)
     return (
-        <div className='min-h-[80vh] '>
+        <div className='min-h-[80vh]'>
             {jobs.map(job=><AppliedJob job={job}></AppliedJob>)}
         </div>
     );

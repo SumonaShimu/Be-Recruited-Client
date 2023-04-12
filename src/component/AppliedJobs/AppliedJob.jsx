@@ -5,10 +5,11 @@ const AppliedJob = ({ job }) => {
     const { logo, title, company, type, location, duration, salary, id } = job;
 
     return (
-        <div className='card bg-orange-100 bg-opacity-50 rounded-xl bg grid grid-cols-4 justify-between'>
+        <div className='grid grid-cols-5 rounded-xl border-2 items-center p-4 mb-4'>
 
-            <img className='' src={logo} alt="" /> 
-            <div>
+            <div className='bg-orange-100 bg-opacity-50 h-[150px] w-[150px] flex items-center p-3 rounded-xl'><img className='w-[100%]' src={logo} alt="" /> </div>
+
+            <div className='col-span-3'>
                 <h3 className='font-bold text-2xl'>{title}</h3>
                 <div className='mute'>
                     <p>{company}</p>
@@ -18,7 +19,9 @@ const AppliedJob = ({ job }) => {
                     <p>{salary}</p>
                 </div>
             </div>
+
             <Link to={`/details/${id}`}><button className='rounded-full'>Show Details</button></Link>
+
         </div>
     );
 };
