@@ -9,7 +9,7 @@ const Banner = () => {
                 <button className='rounded-full'>Get Started</button>
             </div>
             <div className='rounded'>
-                <img className='rounded-xl' src="banner.jpg" alt="" />
+                <img className='rounded-xl' src="https://i.ibb.co/12137t3/banner.jpg" alt="" />
             </div>
         </div>
     );

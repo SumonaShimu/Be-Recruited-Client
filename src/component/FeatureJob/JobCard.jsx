@@ -1,7 +1,16 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Job = ({job}) => {
-    const {logo,title,company,type,location,duration,salary}=job;
+    const {logo,title,company,type,location,duration,salary,id}=job;
+
+    
+    const navigate = useNavigate()
+    const gotoDetails=()=>{
+            // Navigate to another component or page
+            navigate('/details');
+    }
+
     return (
         <div className='card bg-orange-100 bg-opacity-50 rounded-xl bg'>
             <div>
@@ -14,7 +23,7 @@ const Job = ({job}) => {
             <p>{location}</p>
             <p>{salary}</p>
             </div>
-            <button className='rounded-full'>Show Details</button>
+            <Link to={`/details/${id}`}><button className='rounded-full'>Show Details</button></Link>
             </div>
         </div>
     );

@@ -8,6 +8,7 @@ const FeatureJob = () => {
         .then(res=>res.json())
         .then(data=>setJobs(data))
     },[])
+
     return (
         <div className='my-10 text-center'>
             <h1 className='title'>Featured Jobs</h1>

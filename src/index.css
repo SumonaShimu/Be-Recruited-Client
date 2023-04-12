@@ -15,8 +15,15 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-weight:500;
 }
 
+h2{
+  padding: 10px 0;
+  font-size: 2em;
+  line-height: 1;
+  font-weight:500;
+}
 button {
   border-radius: 8px;
   border: 2px solid transparent;
@@ -86,10 +93,11 @@ button:focus-visible {
 }
 
 .banner {
-  background-image: url('./assets/All Images/Vector-1.png');
+  background-image: url("https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/All%20Images/Vector.png");
   background-repeat: no-repeat;
-  background-position: bottom top;
+  background-position: bottom left;
   background-size: contain;
+  background-size:400px;
 }
 
 .space{
@@ -121,7 +129,13 @@ button:focus-visible {
 .btn-mute:hover{
   border:2px solid #d6d4d4;
 }
-
-@media screen and (max-width: 600px) {
-  
+.header{
+  background-image: url("https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/All%20Images/Vector.png");
+  background-repeat: no-repeat;
+  background-position:bottom left;
+  background-size:250px;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
