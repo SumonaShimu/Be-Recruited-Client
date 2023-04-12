@@ -1,28 +1,28 @@
 [
     {
         "id":"cat01",
-        "logo":"Icons/accounts.png",
+        "logo":"https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/Icons/accounts.png",
         "name":"Account & Finance",
         "available":300
 
     },
     {
         "id":"cat02",
-        "logo":"Icons/business.png",
+        "logo":"https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/Icons/business.png",
         "name":"Creative Design", 
         "available":100
 
     },
     {
         "id":"cat03",
-        "logo":"Icons/social-media.png",
+        "logo":"https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/Icons/social-media.png",
         "name":"Marketing & Sales",
         "available":150 
 
     },
     {
         "id":"cat04",
-        "logo":"Icons/chip.png",
+        "logo":"https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/Icons/chip.png",
         "name":"Engineering Job",
         "available":"224"
 

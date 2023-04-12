@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "logo": "inno.png",
+        "logo": "https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/inno.png",
         "title": "Product Manager",
         "company": "Innovate LLC",
         "type": "Remote",
@@ -17,7 +17,7 @@
     },
     {
         "id": "2",
-        "logo": "tesla.png",
+        "logo": "https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/tesla.png",
         "title": "Senior Data Scientist",
         "company": "Tesla",
         "type": "Onsite",
@@ -33,7 +33,7 @@
     },
     {
         "id": "3",
-        "logo": "google.png",
+        "logo": "https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/google.png",
         "title": "Software Engineer",
         "company": "Google",
         "type": "Onsite",
@@ -49,7 +49,7 @@
     },
     {
         "id": "4",
-        "logo": "pqp.png",
+        "logo": "https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/pqp.png",
         "title": "Cybersecurity Analyst",
         "company": "PQR Corp",
         "type": "Onsite",
@@ -65,7 +65,7 @@
     },
     {
         "id": "5",
-        "logo": "globex.png",
+        "logo": "https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/globex.png",
         "title": "Senior Software Engineer",
         "company": "Globex Corporation",
         "type": "Onsite",
@@ -81,7 +81,7 @@
     },
     {
         "id": "6",
-        "logo": "pro.png",
+        "logo": "https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/pro.png",
         "title": "Data Scientist",
         "company": "FACEPRO",
         "type": "Remote",

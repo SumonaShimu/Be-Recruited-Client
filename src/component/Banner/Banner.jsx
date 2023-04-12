@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -9,7 +10,7 @@ const Banner = () => {
                 <button className='rounded-full'>Get Started</button>
             </div>
             <div className='rounded'>
-                <img className='rounded-xl' src="https://i.ibb.co/12137t3/banner.jpg" alt="" />
+                <img className='rounded-xl' src="https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/banner.jpg" alt="" />
             </div>
         </div>
     );

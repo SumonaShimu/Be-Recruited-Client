@@ -6,7 +6,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-
 body {
   min-width: 320px;
   min-height: 100vh;
@@ -15,15 +14,16 @@ body {
 h1 {
   font-size: 3em;
   line-height: 1.3;
-  font-weight:500;
+  font-weight: 500;
 }
 
-h2{
+h2 {
   padding: 10px 0;
   font-size: 2em;
   line-height: 1;
-  font-weight:500;
+  font-weight: 500;
 }
+
 button {
   border-radius: 8px;
   border: 2px solid transparent;
@@ -32,13 +32,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: rgb(255, 126, 0);
+  background-color: rgba(255, 132, 0, 0.847);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 button:hover {
-  background-color:#778899;
+  background-color: #778899;
   color: white;
 }
 
@@ -97,10 +97,10 @@ button:focus-visible {
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: contain;
-  background-size:400px;
+  background-size: 400px;
 }
 
-.space{
+.space {
   margin: 2rem;
   padding: 2rem;
 }
@@ -112,40 +112,51 @@ button:focus-visible {
   display: flex;
   align-items: center;
 }
-.card-img{
+
+.card-img {
   width: 50%;
   max-height: 20%;
   margin: 1.5rem 0;
 }
 
-.btn-mute{
+.btn-mute {
   font-size: small;
   border-radius: 10px;
   padding: 5px 10px;
   margin-right: 10px;
   background-color: #d6d4d4df;
-  border-color:2px solid transparent;
+  border-color: 2px solid transparent;
 }
-.btn-mute:hover{
-  border:2px solid #d6d4d4;
+
+.btn-mute:hover {
+  border: 2px solid #d6d4d4;
 }
-.header{
+
+.header {
   background-image: url("https://raw.githubusercontent.com/SumonaShimu/ass-09-img/main/All%20Images/Vector.png");
   background-repeat: no-repeat;
-  background-position:bottom left;
-  background-size:250px;
+  background-position: bottom left;
+  background-size: 250px;
   height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.icon{
+
+.icon {
   color: rgb(214, 79, 1);
   margin-right: 10px;
 }
 
-hr{
-  border-color:  rgb(152, 151, 151);
+hr {
+  border-color: rgb(152, 151, 151);
   border-radius: 10px;
-  
+
+}
+
+.ehover:hover {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(102, 102, 102);
+  color: white;
 }
